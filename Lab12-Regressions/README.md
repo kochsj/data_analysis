@@ -19,7 +19,7 @@ $ brew install python
 ```
 You need to have the files locally. Click on the green clone or download button and Download ZIP:
 
-![Click_to_download](assets/Click_to_download.png)
+![Click_to_download](../assets/Click_to_download.png)
 
 Navigate to your command line:
 ```
@@ -51,8 +51,8 @@ $ jupyter lab
 ```
 
 ## Functionality/Architecture
-The Jupyter notebooks analyze comma-separated-value files (.csv) - vgsales.csv, trip.csv, weather.csv, and station.csv. We use NumPy and panda methods to analyze the averages, maximum, mode, and other attributes of the data.
+The Jupyter notebooks analyze comma-separated-value files (.csv). In this module we use matplotlib to plot points on a graph given an x and y axis. Using sklearn's linear model module, we create linear regression models of the plotted data points.
 
 ## Change Log
-Mon Dec 16 2019 22:28:59<br>Read four csv files and created two Jupyter Notebooks analyzing the data.
+Tue Dec 16 2019 20:28:59<br>Read four csv files and created two Jupyter Notebooks analyzing the data.
 
