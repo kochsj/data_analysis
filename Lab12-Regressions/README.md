@@ -1,10 +1,10 @@
-# Data Analysis
+# Regressions
 
 **Author**: Stephen Koch
 **Version**: 1.0.0
 
 ## Overview
-This file is for analyzing data using two different Jupyter Notebooks. We are using NumPy and Pandas to access and work with data from [video game sales](https://www.kaggle.com/gregorut/videogamesales) and [cycling](https://www.kaggle.com/pronto/cycle-share-dataset).
+This file is for analyzing data using linear regression in Jupyter Notebooks. We are using NumPy and Pandas to access and work with data from an [insurance data set](https://www.kaggle.com/mirichoi0218/insurance).
 
 ## Getting Started
 
@@ -34,11 +34,11 @@ $ cd Downloads  ##by default: Downloads is a directory inside of your root; and 
 $ cd data_analysis ##and now you are in this directory
 ```
 This is a collection of Jupyter Nodebooks and CSV files.
-Opening the notebooks requires jupyterlab, numpy, and pandas.
+Opening the notebooks requires jupyterlab, numpy, pandas, matplotlib, and sklearn.
 First we need to create a virtual environment to install our package dependencies.
 We are using a pipenv virtual environment:
 ```
-$ pipenv install jupyterlab numpy pandas
+$ pipenv install jupyterlab numpy pandas matplotlib sklearn
 ```
 Your packages will be installed after a short while.
 We need to be running in our virtual environment to use our packages:
