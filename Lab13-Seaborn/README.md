@@ -4,7 +4,7 @@
 **Version**: 1.0.0
 
 ## Overview
-This file is for analyzing data using linear regression and polynomial regression using seaborn in Jupyter Notebooks. We are using NumPy and Pandas to access and work with data from an [apple appstore csv file](https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games).
+This file is for analyzing data using linear regression and polynomial regression using seaborn in Jupyter Notebooks. We are using NumPy and Pandas to access and work with data from an [pokemon csv](https://www.kaggle.com/abcsds/pokemon), [housing sales data](https://www.kaggle.com/deltacrot/property-sales), and [world health organization suicide rates](https://www.kaggle.com/szamil/who-suicide-statistics)
 
 ## Getting Started
 
@@ -51,8 +51,8 @@ $ jupyter lab
 ```
 
 ## Functionality/Architecture
-The Jupyter notebooks analyze comma-separated-value files (.csv). In this Jupyter notebook we are using the power of the seaborn package library to read data and render a representative graph.
+The Jupyter notebooks analyze comma-separated-value files (.csv). In this Jupyter notebook we are using the power of the seaborn package library to read data and render a representative graph. The graphs that we are using are scatterplots and polynomial regressions.
 
 ## Change Log
-Tue Dec 16 2019 20:28:59<br>Read four csv files and created two Jupyter Notebooks analyzing the data.
+Wed Dec 16 2019 19:28:59<br>Read four csv files and created two Jupyter Notebooks analyzing the data.
 
